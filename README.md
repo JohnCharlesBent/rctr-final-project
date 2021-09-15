@@ -47,7 +47,7 @@ This project will make use of a few different API endpoints available from the S
 - Required params
 	- none 
 
-- Returns an array of recently played tracks. Number returned can be set. Default is 10. The returned data also include pagination links for the next 10 or, if applicable, the previous 10.
+- Returns an array of recently played tracks. Number returned can be set. Default is 10. The returned data also includes pagination links for the next 10 or, if applicable, the previous 10.
 
 - Required params
 	- seed_artists - a comma separated list of artist ids
