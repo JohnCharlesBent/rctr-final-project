@@ -1,4 +1,4 @@
-# React Part Time Class Final Project
+# React Part Time Class Final Project - Spotify Recommendation App
 
 ## Project Links
 
