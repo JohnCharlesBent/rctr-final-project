@@ -16,7 +16,7 @@ This react app logs into a user's Spotify account via the [Spotify API](https://
 - [Recently Played Tracks](https://res.cloudinary.com/dso47oeq6/image/upload/v1631711785/Recently_Played_Tracks_rfxdy7.jpg) - once user is logged in the app will make an API call to `/v1/me/player/recently-played` to get the users most recently played tracks.
 - [Recommendation Form](https://res.cloudinary.com/dso47oeq6/image/upload/v1631711792/Recommendation_Form_maauta.jpg) -  - this is a post MVP reach. The form allows the user to provide filters, in addition to artist, song and genre, to get more granular results.
 - [Recommended Tracks](https://res.cloudinary.com/dso47oeq6/image/upload/v1631711800/Returned_Recommended_Tracks_nmkx9j.jpg) -  - the returned results from `get-recommendations` API endpoint
-- [React Architecture Mock Up](https://res.cloudinary.com/dso47oeq6/image/upload/v1631749996/react-app-arch_g8nqds.ai) 
+- [React Architecture Mock Up](https://res.cloudinary.com/dso47oeq6/image/upload/v1631750363/react-app-arch_n6smst.ai) 
 
 #### MVP EXAMPLE
 - App home page - prompts user login and uses Spotify auth flow to gather user credentails, validate and then return an auth token. Token will be saved in state for reuse throughout the App lifecycle (or until token expires).
