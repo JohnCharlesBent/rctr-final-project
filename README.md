@@ -11,7 +11,7 @@ This react app logs into a user's Spotify account via the [Spotify API](https://
 
 
 ## Wireframes
-- [Login Screen](https://res.cloudinary.com/dso47oeq6/image/upload/v1631711776/Login_Screen_omvs84.jpg) - prompts the user for a user/pass combo and uses that data, along with the app id and secret to login.
+- [Login Screen](https://res.cloudinary.com/dso47oeq6/image/upload/v1631711776/Login_Screen_omvs84.jpg) - prompts the user for a user/pass combo and uses that data, along with the app id and secret to login - `https://accounts.spotify.com/authorize`.
 
 - [Recently Played Tracks](https://res.cloudinary.com/dso47oeq6/image/upload/v1631711785/Recently_Played_Tracks_rfxdy7.jpg) - once user is logged in the app will make an API call to `/v1/me/player/recently-played` to get the users most recently played tracks.
 - [Recommendation Form](https://res.cloudinary.com/dso47oeq6/image/upload/v1631711792/Recommendation_Form_maauta.jpg) -  - this is a post MVP reach. The form allows the user to provide filters, in addition to artist, song and genre, to get more granular results.
